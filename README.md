@@ -5,6 +5,7 @@ Example implementation of transactions using continuations (cps).
 
 
 Example method (@tx to mark as transactional)
+
     def create(first: String, last: String): Person@tx
 
 
